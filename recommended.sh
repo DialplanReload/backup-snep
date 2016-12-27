@@ -22,7 +22,7 @@
           echo -en "execucao seja diaria.\n\n"
           echo -en "Para fazer isso, edite a crontab do root e insira a linha\n"
           echo -en "abaixo:\n\n"
-          echo -en "00 23 * * * /var/www/html/snep/scripts/backup-X/`basename $0` -bkp\n"
+          echo -en "00 23 * * * /var/www/html/snep/scripts/backup-snep/`basename $0` -bkp\n"
           echo -en "\nLembre-se de ceder permissao de execucao (chmod +x) e\n"
           echo -en "tambem de mover o script para o diretorio informado acima.\n\n"
 

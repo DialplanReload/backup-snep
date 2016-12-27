@@ -29,21 +29,23 @@
 # * Arquivos de configuracao do SNEP
 # * Restauracao de backups ja realizados
 #
+BASEDIR=$(dirname "$0")
+#
 # Importar variaiveis com ferramentas do sistema
-source variables.sh
+source $BASEDIR/variables.sh
 # Importar dados que devem ser salvos
-source directories.sh
+source $BASEDIR/directories.sh
 # Importar configuracoes de usuario
-source info.conf
+source $BASEDIR/info.conf
 # Importar funcionalidades
-source options.sh
+source $BASEDIR/options.sh
 # Importar funcionalidade -a
-source author.sh
+source $BASEDIR/author.sh
 # Importar funcionalidade de recomendacao
-source recommended.sh
+source $BASEDIR/recommended.sh
 # Importar funcionalidade de versao
-source version.sh
+source $BASEDIR/version.sh
 # Importar funcionalidade de backup
-source bkp.sh
+source $BASEDIR/bkp.sh
 # Importar funcionalidade de restauracao de backup
-source rev.sh
+source $BASEDIR/rev.sh

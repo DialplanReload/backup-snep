@@ -55,4 +55,14 @@
 #          Contribuicoes: Anderson Freitas | Data 13 Dez 2016
 #                         Daian Conrad     | Data 13 Dez 2016
 ##################################################################################################
+#
+# Versao 2.1
+#
+# * Adicionado a váriavel $BASEDIR no script backup-2.1.sh, permitindo que o scrip seja executado de qualquer diretorio e encontre as dependecias
+# * Alterado nome do script de backup-X.sh para backup.sh
+# * Corrigido informação de uso da crontab devido ao nome do script
+#
+#          Contribuicoes: Anderson Freitas | Data 27 Dez 2016
+##################################################################################################
+
 
